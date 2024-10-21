@@ -21,8 +21,13 @@ Hi! I’m Fangyuan Cheng, I am currently a second-year Ph.D. student in the Huma
 
 
 # 📆 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+<div class="news-container">
+    - <i>2022.02</i>: &nbsp;🎉🎉 *Lorem ipsum dolor sit amet*,  
+      consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+    <br>
+    - <i>2022.02</i>: &nbsp;🎉🎉 *Lorem ipsum dolor sit amet*,  
+      consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+</div>
 
 
 # 📖 Educations
