@@ -22,11 +22,7 @@ Hi! I’m Fangyuan Cheng, I am currently a second-year Ph.D. student in the Huma
 
 # 📆 News
 <div class="news-container">
-    - <i>2022.02</i>: &nbsp;🎉🎉 *Lorem ipsum dolor sit amet*,  
-      consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
-    <br>
-    - <i>2022.02</i>: &nbsp;🎉🎉 *Lorem ipsum dolor sit amet*,  
-      consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.
+    - <i>2024.09</i>: &nbsp;🎉🎉 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix!
 </div>
 
 
