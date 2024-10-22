@@ -1,26 +1,21 @@
 ---
-layout: default
-title: Publications
+permalink: /
+title: ""
+excerpt: ""
+author_profile: true
+redirect_from: 
+  - /publications/
+  - /publications.html
 ---
 
-<h1>My Publications</h1>
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<div class="card-container">
-    <div class="card">
-        <h2>Title of Paper 1</h2>
-        <p><strong>Authors:</strong> Author A, Author B, Author C</p>
-        <p><strong>Journal/Conference:</strong> Journal of XYZ, 2022</p>
-        <p><strong>Abstract:</strong> A brief description of the publication.</p>
-        <a href="https://linktopaper.com" class="btn">Read more</a>
-    </div>
+<span class='anchor' id='about-me'></span>
 
-    <div class="card">
-        <h2>Title of Paper 2</h2>
-        <p><strong>Authors:</strong> Author D, Author E, Author F</p>
-        <p><strong>Journal/Conference:</strong> Proceedings of ABC, 2021</p>
-        <p><strong>Abstract:</strong> A brief description of the publication.</p>
-        <a href="https://linktopaper.com" class="btn">Read more</a>
-    </div>
+<h3>publications</h3>
 
-    <!-- 更多出版物卡片 -->
-</div>
