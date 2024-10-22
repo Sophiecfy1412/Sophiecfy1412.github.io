@@ -1,33 +1,26 @@
 ---
-layout: compress
+layout: default
+title: Publications
 ---
 
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<h1>My Publications</h1>
 
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    <div id="main" role="main">
-      {% include sidebar.html %}
-    
-      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
-        <div class="page__inner-wrap">
-          <section class="page__content" itemprop="text">
-            {{ content }}
-          </section>
-        </div>
-      </article>
+<div class="card-container">
+    <div class="card">
+        <h2>Title of Paper 1</h2>
+        <p><strong>Authors:</strong> Author A, Author B, Author C</p>
+        <p><strong>Journal/Conference:</strong> Journal of XYZ, 2022</p>
+        <p><strong>Abstract:</strong> A brief description of the publication.</p>
+        <a href="https://linktopaper.com" class="btn">Read more</a>
     </div>
 
-    {% include scripts.html %}
+    <div class="card">
+        <h2>Title of Paper 2</h2>
+        <p><strong>Authors:</strong> Author D, Author E, Author F</p>
+        <p><strong>Journal/Conference:</strong> Proceedings of ABC, 2021</p>
+        <p><strong>Abstract:</strong> A brief description of the publication.</p>
+        <a href="https://linktopaper.com" class="btn">Read more</a>
+    </div>
 
-  </body>
-</html>
+    <!-- 更多出版物卡片 -->
+</div>
