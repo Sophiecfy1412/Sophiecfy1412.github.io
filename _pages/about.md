@@ -25,7 +25,7 @@ Hi! I am Fangyuan Cheng, and I am currently a second-year Ph.D. student speciali
     <i>2024.09</i>: &nbsp;🌵 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix! </div>
 
 
-# 📖 Educations
+# 🏛️ Education
 - *2023.09 - Present*, PhD Student in Industrial Engineering (Human Factors), North Carolina State University.
 - *2020.09 - 2023.06*, Master's Degree in Mechanical Engineering (Interaction Design), Tongji University.
 - *2016.09 - 2020.06*, Bachelor's Degree in Engineering (Industrial Design), Hunan University.
