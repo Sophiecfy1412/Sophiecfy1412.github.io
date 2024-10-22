@@ -22,8 +22,7 @@ Hi! I am Fangyuan Cheng, and I am currently a second-year Ph.D. student speciali
 
 # 📆 News
 <div class="news-container">
-    - <i>2024.09</i>: &nbsp;🌵 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix!
-</div>
+    <i>2024.09</i>: &nbsp;🌵 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix! </div>
 
 
 # 📖 Educations
