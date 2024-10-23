@@ -101,21 +101,21 @@ h1 {
 .card .btn {
     display: inline-block;
     background-color: #fff; /* 设置按钮背景为白色 */
-    color: #333; /* 按钮文字颜色 */
+    color: #333 !important; /* 按钮文字颜色 */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
     margin-top: auto;
-    border: 1px solid #ccc; /* 浅灰色边框 */
+    border: 1px solid #ccc !important; /* 浅灰色边框 */
     transition: background-color 0.3s, color 0.3s;
 }
 
 /* 按钮悬停时的样式 */
 .card .btn:hover {
-    background-color: #f0f0f0; /* 悬停时背景变为浅灰色 */
-    border-color: #bbb; /* 边框变得稍深一些 */
-    color: #000; /* 悬停时文本颜色变为黑色 */
+    background-color: #f0f0f0 !important; /* 悬停时背景变为浅灰色 */
+    border-color: #bbb !important; /* 边框变得稍深一些 */
+    color: #000 !important; /* 悬停时文本颜色变为黑色 */
     text-decoration: none;
 }
 
