@@ -39,32 +39,56 @@ h1 {
     margin-bottom: 5px;
 }
 
-.card-content {
+.card-container {
     display: flex;
-    align-items: flex-start; /* 让图片和文本都从顶部对齐 */
-    gap: 20px; /* 图片和文本之间的间距 */
+    flex-wrap: wrap; /* 自动换行 */
+    gap: 20px; /* 卡片之间的间距 */
+    justify-content: space-between; /* 卡片之间自动分配空白 */
 }
 
-.card-image {
-    width: 150px; /* 设置图片的宽度，可以根据需要调整 */
+/* 单个卡片样式 */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 100%;
+    flex: 1 1 calc(33.333% - 40px); /* 一行显示3个卡片，计算卡片宽度，考虑间距 */
+    box-sizing: border-box;
+}
+
+/* 图片样式 */
+.card img {
+    width: 150px;
     height: auto;
-    border-radius: 5px;
-    object-fit: cover; /* 保持图片的比例 */
+    border-radius: 10px;
+    object-fit: cover; /* 保持图片比例 */
 }
 
-.card-text {
-    flex: 1; /* 让文本部分占据剩余的宽度 */
+/* 卡片内文字部分 */
+.card .card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
+/* 卡片标题 */
 .card h2 {
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 15px;
+    color: #333;
 }
 
+/* 卡片正文 */
 .card p {
     margin: 10px 0;
 }
 
+/* 按钮样式 */
 .card .btn {
     display: inline-block;
     background-color: #007bff;
@@ -72,9 +96,25 @@ h1 {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
+    margin-top: auto;
 }
 
 .card .btn:hover {
     background-color: #0056b3;
+    text-decoration: none;
 }
 
+/* 响应式设计：屏幕较小时，卡片显示一行两个 */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 40px); /* 一行两个卡片 */
+    }
+}
+
+/* 移动设备：屏幕较小时，每行只显示一个卡片 */
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* 一行一个卡片 */
+    }
+}
