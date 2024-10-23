@@ -2,6 +2,9 @@
 layout: default
 title: "Publications"
 permalink: /publications/
+redirect_from: 
+  - /publications/
+  - /publications.html
 ---
 
 <h1>Publications</h1>
