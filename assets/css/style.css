@@ -92,19 +92,25 @@ h1 {
 /* 按钮样式 */
 .card .btn {
     display: inline-block;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #fff; /* 设置按钮背景为白色 */
+    color: #333; /* 按钮文字颜色 */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     text-align: center;
     margin-top: auto;
+    border: 1px solid #ccc; /* 浅灰色边框 */
+    transition: background-color 0.3s, color 0.3s;
 }
 
+/* 按钮悬停时的样式 */
 .card .btn:hover {
-    background-color: #0056b3;
+    background-color: #f0f0f0; /* 悬停时背景变为浅灰色 */
+    border-color: #bbb; /* 边框变得稍深一些 */
+    color: #000; /* 悬停时文本颜色变为黑色 */
     text-decoration: none;
 }
+
 
 /* 响应式设计：在小屏幕下保持布局 */
 @media (max-width: 768px) {
