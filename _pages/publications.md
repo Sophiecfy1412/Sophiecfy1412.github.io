@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Publications"
-permalink: /publications/
+permalink: /
 redirect_from: 
   - /publications/
   - /publications.html
