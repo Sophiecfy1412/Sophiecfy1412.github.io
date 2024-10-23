@@ -39,6 +39,14 @@ h1 {
     margin-bottom: 5px;
 }
 
+.page {
+    width: 83.0508474576%;
+    float: left;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+    padding-right: 0%;
+}
+
 /* 卡片容器 */
 .card-container {
     display: flex;
