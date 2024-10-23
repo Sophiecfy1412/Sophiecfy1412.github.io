@@ -47,6 +47,14 @@ h1 {
     padding-right: 0%;
 }
 
+a {
+    color: #000 !important; /* 黑色 */
+}
+
+a:hover {
+    color: #40E0D0; /* 鼠标悬停时也是黑色 */
+}
+
 /* 卡片容器 */
 .card-container {
     display: flex;
