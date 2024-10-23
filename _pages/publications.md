@@ -2,6 +2,8 @@
 layout: default
 title: "Publications"
 permalink: /publications/
+excerpt: ""
+author_profile: false
 ---
 
 <h1>Publications</h1>
