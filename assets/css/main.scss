@@ -117,49 +117,4 @@ h1:before, .anchor:before {
 }
 
 
-.card-container {
-    display: flex;
-    flex-direction: column; /* 卡片纵向排列 */
-    gap: 20px;
-    justify-content: center;
-    align-items: center; /* 中心对齐 */
-}
-
-.card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 80%; /* 每个卡片的宽度占页面的80% */
-    max-width: 800px; /* 设定一个最大宽度 */
-    margin: 20px; /* 卡片之间的间距 */
-    box-sizing: border-box;
-    transition: transform 0.3s ease-in-out;
-}
-
-.card:hover {
-    transform: scale(1.02);
-}
-
-.card h2 {
-    font-size: 1.8em;
-    margin-bottom: 15px;
-}
-
-.card p {
-    margin: 10px 0;
-}
-
-.card .btn {
-    display: inline-block;
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
-.card .btn:hover {
-    background-color: #0056b3;
-}
 
