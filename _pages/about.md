@@ -20,7 +20,7 @@ redirect_from:
 <div style="height: 50px;"></div>
 
 <h1>👩🏻‍💻 Hi! I am Fangyuan Cheng.</h1>
-I am currently a second-year Ph.D. student specializing in Human Factors and Ergonomics within <a href="https://ise.ncsu.edu/"> the Edward P. Fitts Department of Industrial and Systems Engineering (ISE)</a> at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="https://ise.ncsu.edu/people/kbchen2/"> Professor Karen Chen</a>. My research interests lie in human cognition and experience within the context of AI-augmented spatial learning. Prior to starting my Ph.D. journey, I gained experience as a user experience designer during internships at Microsoft (Beijing) and Accenture (Shanghai).
+<p style="font-size: 22px;"> I am currently a second-year Ph.D. student specializing in Human Factors and Ergonomics within <a href="https://ise.ncsu.edu/"> the Edward P. Fitts Department of Industrial and Systems Engineering (ISE)</a> at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="https://ise.ncsu.edu/people/kbchen2/"> Professor Karen Chen</a>. My research interests lie in human cognition and experience within the context of AI-augmented spatial learning. Prior to starting my Ph.D. journey, I gained experience as a user experience designer during internships at Microsoft (Beijing) and Accenture (Shanghai). </p>
 
 <div style="height: 50px;"></div>
 # 📆 News
