@@ -25,7 +25,11 @@ redirect_from:
 <div style="height: 50px;"></div>
 # 📆 News
 <div class="news-container">
-    <i>2024.09</i>: &nbsp;🌵 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix! </div>
+    <i>2024.09</i>: &nbsp;🌵 Attended HFES Annual Meeting as a presenter on behalf of the co-authors, and served as a session chair for the first time. Beautiful Phoenix!<br>
+    <i>2023.08</i>: &nbsp;🐺 Become a PhD student@NCSU, go wolfpack!<br>
+    <i>2023.08</i>: &nbsp;🎉 Recieve the best paper award at HCII in the Human Interface and the Management of Information Thematic Area. Cheers to my co-author!
+  
+</div>
 
 <div style="height: 50px;"></div>
 # 🏛️ Education
