@@ -13,7 +13,7 @@ author_profile: false
   <!-- 第一篇文章 -->
 <div class="card">
     <div class="card-content">
-        <img src="your-image-url.jpg" alt="Image description" class="card-image">
+        <img src="/images/test.png" alt="Image description" class="card-image">
         <div class="card-text">
             <h2>Understanding AI and Spatial Learning</h2>
             <p><strong>Authors:</strong> John Doe, Jane Smith, Sophie Chen</p>
@@ -27,7 +27,7 @@ author_profile: false
 
 <div class="card">
     <div class="card-content">
-        <img src="your-image-url.jpg" alt="Image description" class="card-image">
+        <img src="/images/test.png" alt="Image description" class="card-image">
         <div class="card-text">
             <h2>Understanding AI and Spatial Learning</h2>
             <p><strong>Authors:</strong> John Doe, Jane Smith, Sophie Chen</p>
@@ -42,7 +42,7 @@ author_profile: false
   <!-- 第三篇文章 -->
 <div class="card">
     <div class="card-content">
-        <img src="your-image-url.jpg" alt="Image description" class="card-image">
+        <img src="/images/test.png" alt="Image description" class="card-image">
         <div class="card-text">
             <h2>Understanding AI and Spatial Learning</h2>
             <p><strong>Authors:</strong> John Doe, Jane Smith, Sophie Chen</p>
