@@ -39,11 +39,12 @@ h1 {
     margin-bottom: 5px;
 }
 
+/* 卡片容器 */
 .card-container {
     display: flex;
-    flex-wrap: wrap; /* 自动换行 */
+    flex-direction: column; /* 将卡片容器改为纵向布局 */
     gap: 20px; /* 卡片之间的间距 */
-    justify-content: space-between; /* 卡片之间自动分配空白 */
+    justify-content: space-between; /* 保持卡片之间的空白 */
 }
 
 /* 单个卡片样式 */
@@ -55,17 +56,17 @@ h1 {
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    max-width: 100%;
-    flex: 1 1 calc(33.333% - 40px); /* 一行显示3个卡片，计算卡片宽度，考虑间距 */
+    max-width: 100%; /* 卡片占据整个容器的宽度 */
+    flex-direction: row; /* 让卡片内部的内容横向排列 */
     box-sizing: border-box;
 }
 
 /* 图片样式 */
 .card img {
-    width: 150px;
+    width: 150px; /* 图片宽度 */
     height: auto;
     border-radius: 10px;
-    object-fit: cover; /* 保持图片比例 */
+    object-fit: cover;
 }
 
 /* 卡片内文字部分 */
@@ -105,16 +106,14 @@ h1 {
     text-decoration: none;
 }
 
-/* 响应式设计：屏幕较小时，卡片显示一行两个 */
+/* 响应式设计：在小屏幕下保持布局 */
 @media (max-width: 768px) {
     .card {
-        flex: 1 1 calc(50% - 40px); /* 一行两个卡片 */
+        flex-direction: column; /* 当屏幕变小时，卡片内的内容变为纵向排列 */
+        align-items: center;
     }
-}
-
-/* 移动设备：屏幕较小时，每行只显示一个卡片 */
-@media (max-width: 480px) {
-    .card {
-        flex: 1 1 100%; /* 一行一个卡片 */
+    .card img {
+        width: 100%;
+        height: auto;
     }
 }
