@@ -40,7 +40,15 @@ h1 {
 }
 
 .page {
-    width: 83.0508474576%;
+    width: 83%;
+    float: left;
+    margin-right: 0;
+    padding-left: 4.2372881356%;
+    padding-right: 0%;
+}
+
+.page-full {
+    width: 100%;
     float: left;
     margin-right: 0;
     padding-left: 4.2372881356%;
@@ -59,16 +67,40 @@ a:hover {
 .card-container {
     display: flex;
     flex-direction: column; /* 将卡片容器改为纵向布局 */
-    gap: 20px; /* 卡片之间的间距 */
+    gap: 10px; /* 卡片之间的间距 */
     justify-content: space-between; /* 保持卡片之间的空白 */
 }
 
 /* 单个卡片样式 */
 .card {
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    border-color:#000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 100%; /* 卡片占据整个容器的宽度 */
+    flex-direction: row; /* 让卡片内部的内容横向排列 */
+    box-sizing: border-box;
+}
+
+.card-container-aboutme {
+    display: flex;
+    flex-direction: column; /* 将卡片容器改为纵向布局 */
+    gap: 0px; /* 卡片之间的间距 */
+    justify-content: space-between; /* 保持卡片之间的空白 */
+}
+
+.card-aboutme {
+    transform: scale(0.9);
+    transform-origin: top left;
+    background-color: #fff;
+    border-radius: 2px;
+    border-color:#000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    padding: 5px;
     display: flex;
     align-items: flex-start;
     gap: 20px;
@@ -107,12 +139,13 @@ a:hover {
 
 /* 按钮样式 */
 .card .btn {
+
     display: inline-block;
     background-color: #fff; /* 设置按钮背景为白色 */
     color: #333 !important; /* 按钮文字颜色 */
     padding: 10px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 1px;
     text-align: center;
     margin-top: auto;
     border: 1px solid #ccc !important; /* 浅灰色边框 */
@@ -127,6 +160,139 @@ a:hover {
     text-decoration: none;
 }
 
+.card-aboutme .btn {
+
+    display: inline-block;
+    background-color: #fff; /* 设置按钮背景为白色 */
+    color: #333 !important; /* 按钮文字颜色 */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 1px;
+    text-align: center;
+    margin-top: auto;
+    border: 1px solid #ccc !important; /* 浅灰色边框 */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* 按钮悬停时的样式 */
+.card-aboutme .btn:hover {
+    background-color: #f0f0f0 !important; /* 悬停时背景变为浅灰色 */
+    border-color: #bbb !important; /* 边框变得稍深一些 */
+    color: #000 !important; /* 悬停时文本颜色变为黑色 */
+    text-decoration: none;
+}
+
+
+
+
+
+.projects_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+
+.projects_container_aboutme {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  
+.projcard_card {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+.projcard_card_aboutme {
+    transform: scale(0.95);
+    transform-origin: top left;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.projcard_image {
+    position: relative;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+.projcard_image img {
+    display:block;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    opacity: 0; /* Initially hidden */
+    transition: 0.3s ease; /* Smooth transition */
+    z-index: 10;
+  }
+
+.projcard_image:hover .overlay {
+    opacity: 1 !important; /* Show the overlay on hover */
+}
+  
+.projcard_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  
+.projcard_header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+.projcard_header h2 {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+  }
+  
+.projcard_header .date {
+    font-size: 14px;
+    color: white;
+  }
+  
+.projcard_footer {
+    align-self: flex-start;
+  }
+  
+.projcard_footer .tag {
+    font-size: 12px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white background for the tag */
+    padding: 5px 10px;
+    border-radius: 20px;
+  }
+
 
 /* 响应式设计：在小屏幕下保持布局 */
 @media (max-width: 768px) {
@@ -139,3 +305,68 @@ a:hover {
         height: auto;
     }
 }
+
+/* project01 */
+
+.large-title {
+    font-size: 4rem; /* 调整为你想要的大小 */
+    font-weight: bold; /* 可选，增加字体粗细 */
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 1200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.info-box {
+    text-align: center;
+}
+
+/* 项目图片的样式 */
+.project-image {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.project-image img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0px;
+}
+
+.card-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon-button img {
+    width: 24px; /* 图标大小可根据需要调整 */
+    height: 24px;
+    transition: transform 0.2s;
+}
+
+.icon-button:hover img {
+    transform: scale(1.1); /* 悬停时稍微放大 */
+}
+
+.framework {
+    transform: scale(0.8);
+    transform-origin: top left;
+    display: inline-block;
+    justify-content: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+}
+

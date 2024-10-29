@@ -6,8 +6,9 @@ excerpt: ""
 author_profile: false
 ---
 
-<h1>Publications</h1>
-<p>Here is a list of my publications, covering topics such as AI, human factors, and spatial learning.</p>
+<h1>📑 Publications</h1>
+
+<div style="height: 50px;"></div>
 
 <div class="card-container">
   
